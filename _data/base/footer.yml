@@ -48,13 +48,13 @@ columns:
   - title: CONTRIBUTE
     links:
       - title: Desktop
-        url: https://github.com/t3knomanzer/maxmix-software
+        url: https://github.com/maxmix-project/maxmix-software
       - title: Firmware
-        url: https://github.com/t3knomanzer/maxmix-software
+        url: https://github.com/maxmix-project/maxmix-software
       - title: Hardware
         url: https://www.prusaprinters.org/prints/31336-maxmix
       - title: Website
-        url: https://github.com/t3knomanzer/maxmix-website
+        url: https://github.com/maxmix-project/maxmix-website
       - title: Buy!
         url: https://www.amazon.com/dp/B08LMQXTZ3
       - title: Donate!
@@ -63,4 +63,4 @@ columns:
   - title: CONTACT
     links:
       - title: Contact Us
-        url: /contact/
+        url: contact/

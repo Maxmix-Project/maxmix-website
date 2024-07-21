@@ -5,117 +5,117 @@
 # If you change this file, please restart the server process.
 
 # Site settings
-title:                  Maxmix
-description:            The volume mixer for everyone.
-url:                    "https://maxmixproject.com" # Site base hostname & protocol, e.g. http://example.com
-baseurl:                "" # Site subpath, e.g. /blog
-lang:                   en
-logo:                   logo-color-dark-web.svg # if not provided title is used
-logo_light:             logo-color-light-web.svg # if not provided title is used
-permalink:              /:year/:month/:day/:title/ # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
-date_format:            "%b %-d, %Y" # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-uploads:                /uploads/ # Path to post content assets directory i.e post images, pdfs etc
-template:               base
+title: Maxmix
+description: The volume mixer for everyone.
+url: 'https://maxmix-project.github.io' # Site base hostname & protocol, e.g. http://example.com
+baseurl: '/maxmix-website' # Site subpath, e.g. /blog
+lang: en
+logo: logo-color-dark-web.svg # if not provided title is used
+logo_light: logo-color-light-web.svg # if not provided title is used
+permalink: /:year/:month/:day/:title/ # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
+date_format: '%b %-d, %Y' # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+uploads: /uploads/ # Path to post content assets directory i.e post images, pdfs etc
+template: base
 
-paginate:               6 # Number of posts displayed on blog page
-paginate_path:          "/blog/:num/" # Blog path
+paginate: 6 # Number of posts displayed on blog page
+paginate_path: '/blog/:num/' # Blog path
 
 # Default author settings
 author:
-  name:                 Ruben Henares
-  avatar:               avatar-ruben.png
-  title:                Developer     
-  bio:                  
-  url:                  
-  email:                
-  website:              
-  facebook:             
+  name: Ruben Henares
+  avatar: avatar-ruben.png
+  title: Developer
+  bio:
+  url:
+  email:
+  website:
+  facebook:
   flickr:
   dribbble:
-  github:               
+  github:
   googleplus:
-  instagram:            
-  linkedin:             
+  instagram:
+  linkedin:
   pinterest:
   twitter:
-  vimeo:                
+  vimeo:
   youtube:
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
   placeholder:
-    name:               Jane Doe
-    title:              Developer     
-    avatar:             avatar-placeholder.png
+    name: Jane Doe
+    title: Developer
+    avatar: avatar-placeholder.png
 
 navbar:
-  layout:               default    # Options: default, center
-  color:                light      # Text color, Options: dark or light
-  animation:            true
-  sticky:               false
-  search:               false
-  scroll_up:            false
+  layout: default # Options: default, center
+  color: light # Text color, Options: dark or light
+  animation: true
+  sticky: false
+  search: false
+  scroll_up: false
 
-footer:                 # Default footer image settings
-  style:                secondary # default, muted, primary, secondary
-  layout:               columns # center or columns
-  copyright:            Made with love by Ruben Henares.
+footer: # Default footer image settings
+  style: secondary # default, muted, primary, secondary
+  layout: columns # center or columns
+  copyright: Made with love by Ruben Henares.
 
 mailchimp:
-  form_action:          000000
-  hidden_name:          000000
-  
-google_analytics:       UA-168771356-1 # Google analytics code, get your code here https://www.google.com/analytics/
-google_maps_api_key:    # Google maps API key, get your key here: https://developers.google.com/maps/documentation/javascript/get-api-key
+  form_action: 000000
+  hidden_name: 000000
+
+google_analytics: UA-168771356-1 # Google analytics code, get your code here https://www.google.com/analytics/
+google_maps_api_key: # Google maps API key, get your key here: https://developers.google.com/maps/documentation/javascript/get-api-key
 
 disqus:
-  shortname:            # Disqus comments shortname, requires Disqus account https://disqus.com/
+  shortname: # Disqus comments shortname, requires Disqus account https://disqus.com/
 
-instagram_accesstoken:  # No longer supported
+instagram_accesstoken: # No longer supported
 
 donations:
   paypal:
-    id:                 # PayPal button ID
-    navbar:             false
+    id: # PayPal button ID
+    navbar: false
 
 # Social share buttons
 social_share:
-  twitter:              true
-  facebook:             true
-  linkedin:             true
-  pinterest:            true
-  reddit:               true
+  twitter: true
+  facebook: true
+  linkedin: true
+  pinterest: true
+  reddit: true
 
 # Social buttons
 social_networks:
-  email:                
-  website:             
-  facebook:             
+  email:
+  website:
+  facebook:
   flickr:
   dribbble:
-  github:               https://www.github.com/t3knomanzer/maxmix-software
+  github: https://www.github.com/maxmix-project/maxmix-software
   googleplus:
-  instagram:            
-  linkedin:             
+  instagram:
+  linkedin:
   pinterest:
-  twitter:              https://twitter.com/maxmixproject
-  vimeo:                
-  youtube:              https://www.youtube.com/channel/UCU5MRTji6emgxk84aEd7Gqg/
-  thingiverse:          https://www.thingiverse.com/thing:4343186
-  prusaprinters:        https://www.prusaprinters.org/prints/31336-maxmix
-  reddit:               https://www.reddit.com/r/maxmixproject
-  discord:              https://discord.gg/TmvvgCw
-  form:                 /contact/
+  twitter: https://twitter.com/maxmixproject
+  vimeo:
+  youtube: https://www.youtube.com/channel/UCU5MRTji6emgxk84aEd7Gqg/
+  thingiverse: https://www.thingiverse.com/thing:4343186
+  prusaprinters: https://www.prusaprinters.org/prints/31336-maxmix
+  reddit: https://www.reddit.com/r/maxmixproject
+  discord: https://discord.gg/TmvvgCw
+  form: contact/
 
 downloads:
-  software:         https://github.com/t3knomanzer/maxmix-software/releases/download/1.5.6/Maxmix.1.5.6.msi
-  hardware:         https://www.prusaprinters.org/prints/31336-maxmix
-  
+  software: https://github.com/maxmix-project/maxmix-software/releases/latest
+  hardware: https://www.prusaprinters.org/prints/31336-maxmix
+
 # Build settings
-markdown:               kramdown
-highlighter:            rouge
+markdown: kramdown
+highlighter: rouge
 kramdown:
-  toc_levels:           "2"
+  toc_levels: '2'
 
 plugins:
   - jekyll-paginate
@@ -125,7 +125,7 @@ plugins:
   - jekyll-sitemap
   - jemoji
 
-exclude: 
+exclude:
   - vendor
   - .bundle
   - .sass-cache
@@ -143,56 +143,56 @@ exclude:
   - /docs
 
 sass:
-  style:                compressed
+  style: compressed
 
 # collections:
 collections:
   blocks:
-    output:             false
+    output: false
   sidebars:
-    output:             false
+    output: false
   faqs:
-    output:             false
+    output: false
   portfolio:
-    output:             true
+    output: true
 
 # Defaults
 defaults:
   # _posts
   - scope:
-      path:                 ""
-      type:                 posts
+      path: ''
+      type: posts
     values:
-      layout:               post
-      section:              large
-      sidebar: 
-        right:              blog
-        sticky:             false
-      comments:             # true
-      share:                true
-      related:              true
-      mailchimp:            true
+      layout: post
+      section: large
+      sidebar:
+        right: blog
+        sticky: false
+      comments: # true
+      share: true
+      related: true
+      mailchimp: true
       navbar:
-        transparent:        true
-        transparent_color:  light
+        transparent: true
+        transparent_color: light
       header:
-        layout:             center
-        background_overlay: "rgba(0, 0, 0, 0.5)"
-        color:              light
-        header_size:        large
-        heading_size:       medium
-        parallax:           true
+        layout: center
+        background_overlay: 'rgba(0, 0, 0, 0.5)'
+        color: light
+        header_size: large
+        heading_size: medium
+        parallax: true
 
   # _pages
   - scope:
-      path:                 ""
-      type:                 pages
+      path: ''
+      type: pages
     values:
-      layout:               page
-      
+      layout: page
+
   # _portfolio
   - scope:
-      path:                 ""
-      type:                 portfolio
+      path: ''
+      type: portfolio
     values:
-      layout:               page
+      layout: page
