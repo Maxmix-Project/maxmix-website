@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ginfuru.ginfuru-vscode-jekyll-syntax",
+    "sissel.shopify-liquid",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "shopify.theme-check-vscode"
+  ]
+}

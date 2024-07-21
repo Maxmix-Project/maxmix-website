@@ -1,0 +1,24 @@
+{
+  "files.associations": {
+    "*.md": "jekyll",
+    "*.markdown": "jekyll",
+    "*.html": "liquid",
+    "*.liquid": "liquid"
+  },
+  "[liquid]": {
+    "editor.defaultFormatter": "Shopify.theme-check-vscode",
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.markdownlint": "explicit"
+    }
+  },
+  "markdownlint.config": {
+    "default": true,
+    "MD033": { "allowed_elements": ["br", "iframe"] },
+    "MD041": false
+  },
+  "cSpell.words": ["Maxmix"]
+}

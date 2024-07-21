@@ -63,4 +63,4 @@ columns:
   - title: CONTACT
     links:
       - title: Contact Us
-        url: contact/
+        url: /contact/

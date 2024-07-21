@@ -1,20 +1,13 @@
 ---
 layout: default
 ---
-
 <article class="uk-article">
   <div class="uk-article-content button-link uk-margin-medium-top-">
     {{ content }}
-    {% if page.share %}
-        {% include share.html %}
-    {% endif %}
+    {% if page.share %} {% include share.html %} {% endif %}
   </div>
-  
-  {% if site.disqus.shortname %}
-      {% include disqus_comments.html %}
-  {% endif %}
+
+  {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
 </article>
 
-{% if page.related %}
-  {% include related-posts.html %}
-{% endif %}
+{% if page.related %} {% include related-posts.html %} {% endif %}

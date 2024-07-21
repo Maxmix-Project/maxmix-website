@@ -17,7 +17,7 @@ header:
     block: install-header
 
   background_image: install/header.jpg
-  background_overlay: 'linear-gradient(to left top,rgba(252, 97, 97, 0.8) 0%, rgba(69, 69, 69, 0.8) 80%)'
+  background_overlay: "linear-gradient(to left top,rgba(252, 97, 97, 0.8) 0%, rgba(69, 69, 69, 0.8) 80%)"
 
 sidebar:
   right: install

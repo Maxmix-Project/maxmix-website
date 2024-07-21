@@ -14,15 +14,18 @@
   "homepage": "https://plus.jekyll.plus",
   "dependencies": {
     "instafetch.js": "^1.5.0",
-    "sharer.js": "^0.3.8",
-    "simple-jekyll-search": "^1.7.2",
+    "sharer.js": "^0.5.2",
+    "simple-jekyll-search": "^1.10.0",
     "system-font-css": "^2.0.2",
-    "uikit": "^3.3.6"
+    "uikit": "^3.21.7"
   },
   "devDependencies": {
-    "jshint": "^2.10.2",
+    "@shopify/liquid-html-parser": "^2.0.3",
+    "@shopify/prettier-plugin-liquid": "^1.5.0",
+    "jshint": "^2.13.6",
     "ncp": "latest",
-    "uglify-js": "^3.4.10",
+    "prettier": "^3.3.3",
+    "uglify-js": "^3.19.0",
     "watch": "^1.0.2"
   },
   "scripts": {
