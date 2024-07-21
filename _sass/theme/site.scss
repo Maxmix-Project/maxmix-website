@@ -2,3 +2,8 @@
   position: sticky !important;
   top: 40px;
 }
+
+.uk-nav li > ul {
+  padding-left: 15px;
+  font-size: 0.8rem;
+}

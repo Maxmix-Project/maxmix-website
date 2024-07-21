@@ -42,9 +42,24 @@
                   {% else %}
                       {% assign domain = '' | relative_url %}
                   {% endif %}
+                  <li>
+                    <a href="{{ domain }}{{ link.url }}" class="uk-link-text"{% if link.url contains 'http' %} target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a>
+                    {% if link.links != null %}
+                      <ul>
+                      {% for sublink in link.links %}
 
-                  <li><a href="{{ domain }}{{ link.url }}" class="uk-link-text"{% if link.url contains 'http' %} target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a></li>
+                        {% if sublink.url contains 'http' %}
+                            {% assign domain = '' %}
+                        {% else %}
+                            {% assign domain = '' | relative_url %}
+                        {% endif %}
 
+                        <li><a href="{{ domain }}{{ sublink.url }}" class="uk-link-text"{% if sublink.url contains 'http' %} target="_blank" rel="noopener" {% endif %}>{{ sublink.title }}</a></li>
+
+                      {% endfor %}
+                      </ul>
+                    {% endif %}
+                  </li>
                 {% endfor %}
               {% endif %}
             </ul>
