@@ -16,21 +16,7 @@ Grab all the electronic components, the M2x5mm screws and a small philips head s
   lightbox="true"
 %}
 
-## 2. Rotary encoder
-
-1. Grab the rotary encoder and bottom part of the enclosure.
-2. Place the encoder in the center, lining up the holes.
-3. Secure it using the 2 screws.
-
-{% include gallery.html
-  gallery="build/electronics/rotary/"
-  grid="1-4"
-  gutter="small"
-  caption="false"
-  lightbox="true"
-%}
-
-## 3. MCU
+## 2. MCU
 
 1. Grab the MCU and bottom part of the enclosure.
 2. Insert the USB connector of the MCU into the opening at the back of the enclosure.
@@ -38,6 +24,20 @@ Grab all the electronic components, the M2x5mm screws and a small philips head s
 
 {% include gallery.html
   gallery="build/electronics/mcu/"
+  grid="1-4"
+  gutter="small"
+  caption="false"
+  lightbox="true"
+%}
+
+## 3. Rotary encoder
+
+1. Grab the rotary encoder and bottom part of the enclosure.
+2. Place the encoder in the center, lining up the holes.
+3. Secure it using the 2 screws.
+
+{% include gallery.html
+  gallery="build/electronics/rotary/"
   grid="1-4"
   gutter="small"
   caption="false"
