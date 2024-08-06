@@ -21,4 +21,4 @@
 Congratulations you have completed the build!
 
 You now have your very own Maxmix controller.
-Go to the [install](/install/) section and follow the instructions to get the software setup.
+Go to the [install]({{site.baseurl}}{% link install.md %}) section and follow the instructions to get the software setup.

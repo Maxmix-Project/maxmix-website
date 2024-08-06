@@ -38,7 +38,7 @@ Installation of the software is very straight forward but we are providing step 
 
 {% include alert.html text="It is recommended that you install the desktop application before you plug-in your device for the first time." %}
 
-1. Download the latest version of the desktop application.
+1. Download the [latest version](https://github.com/maxmix-project/maxmix-software/releases/latest) of the desktop application.
 2. Double click on the installer and follow the instructions on the screen.
 3. Plug-in your device now and wait for Windows to recognize it.
 4. Launch the application either from the Windows start menu or the shortcut on your desktop.
@@ -76,7 +76,7 @@ If your device shows as unrecognized in **Windows Device Manager** with yellow a
 If your nano is still showing as an unrecognized device, it's probably because it uses a chinese clone of the FTDI USB chip which unfortunately does not work with the automatic driver finding functionality in Windows. So you will have to install the driver yourself.
 
 1. Unplug the device.
-2. Download the [CH341SER.zip](/uploads/CH341SER.zip) archize, unzip it to a known location then double click on **SETUP.EXE**.
+2. Download the CH341SER drivers: [Windows](https://www.wch.cn/downloads/CH341SER_ZIP.html), [Mac](https://www.wch.cn/downloads/CH341SER_MAC_ZIP.html) (download via blue button with icon)
 3. When prompted click **Install**. Once completed, close the installer.
 4. Open **Windows Device Manager**
 5. Plug the device, it should now appears in Ports (COM & LPT) has **USB-SERIAL CH340**. If it's still undetected, try to reboot your computer and check again.

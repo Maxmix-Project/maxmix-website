@@ -15,7 +15,7 @@ It uses github-pages, jekyll and the commercial [EON theme](https://eon.unbound.
 
 ## Developing
 
-...
+`bundle exec jekyll serve --livereload`
 
 ## Contributing
 
